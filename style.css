@@ -1,0 +1,145 @@
+
+.E-guru>img{
+    height: 50px;
+}
+
+.E-guru{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.E-guru>h1{
+    padding-left: 20px;
+}
+
+.nav-bar{
+    padding-top: 20px;
+}
+
+.web-link a{
+    float: left;
+    padding: 12px;
+    color: rgb(94, 91, 91);
+    text-decoration: none;
+    font-size: 17px;
+    width: 15%; 
+    justify-content: space-between;
+}
+
+.web-link a:hover{
+    color: #f0752f;
+}
+.button{
+    border: 2px solid black;
+    color: rgb(30, 7, 7);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.button-first{
+    border: 2px solid rgb(236, 129, 48);
+    color: rgb(30, 7, 7);
+    padding: 15px 32px;
+    background-color:  rgb(236, 129, 48);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button-second{
+    border: 2px solid black;
+    color: rgb(30, 7, 7);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button-first:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.button-second:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.text-content h1{
+    font-weight: 1200;
+}
+
+.text-content h3{
+    font-weight: 200;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.text-content{
+    float:inline-start;
+    padding-top: 5%;
+}
+
+.main-content{
+    padding-left: 14%;
+    padding-right: 14%;
+    display: flex;
+}
+
+.button-style{
+    padding-top: 10px;
+    display: inline-block;
+}
+
+.content-first{
+    max-width: 50%;
+}
+
+.arrow>img{
+    float: right;
+}
+
+.image2{
+    float: right;
+    padding-left: 110px;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    background-color: #180a44;
+    color: white;
+    text-align: start;
+    display:flex;
+    padding-left: 14%;
+    height: 250px;
+    padding-top: 15px;
+}
+
+.footer1 img{
+    background-color: green;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+}
+.footer2 img{
+    background-color: orange;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+}
+
+.footer3 img{
+    background-color: blue;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+}
